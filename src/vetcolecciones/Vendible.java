@@ -1,0 +1,17 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package vetcolecciones;
+
+/**
+ *
+ * @author utku33
+ */
+public interface Vendible {
+    public float getPrecio();
+    public void setPrecio(float precio);
+    public void setCodigo(String codigo);
+    public String getCodigo();
+}
